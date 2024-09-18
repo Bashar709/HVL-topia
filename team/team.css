@@ -1,0 +1,114 @@
+/* Reset default styling */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5; /* Lys bakgrunnsfarge */
+    color: #333;
+}
+
+header {
+    background-color: #004d40; /* Mørk grønn bakgrunn */
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+header .profile-image {
+    width: 120px; /* Juster størrelse på bilde */
+    height: 120px;
+    border-radius: 50%; /* Rundt bilde */
+    border: 4px solid #fff; /* Hvit kant rundt bilde */
+    display: block;
+    margin: 0 auto 15px;
+    object-fit: cover; /* Sørger for at bilde holder proporsjoner */
+}
+
+header .contact-info p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.contact-link {
+    color: #fff; /* Hvit farge for lenker */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-link:hover {
+    color: #cddc39; /* Lys grønn ved hover */
+}
+
+section {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 800px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd; /* Lys grå ramme */
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #004d40; /* Mørk grønn overskrift */
+    border-bottom: 3px solid #004d40;
+    padding-bottom: 10px;
+}
+
+.job, .utdanning, .referanse {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #004d40; /* Mørk grønn bakgrunn */
+    color: #fff;
+    border-top: 3px solid #00251a; /* Mørkere grønn ramme over footeren */
+    border-radius: 12px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for sosiale medieknapper */
+.social-media {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #fff; /* Hvit farge for ikoner */
+    margin: 0 15px;
+    font-size: 32px; /* Større ikoner */
+    transition: color 0.3s, transform 0.3s;
+    display: inline-block;
+}
+
+.social-media a:hover {
+    transform: scale(1.2); /* Zoom-effekt ved hover */
+}
+
+.social-media .fa-linkedin:hover {
+    color: #0077b5; /* LinkedIn blå */
+}
+
+.social-media .fa-github:hover {
+    color: #333; /* GitHub svart */
+}
+
+.social-media .fa-facebook-f:hover {
+    color: #1877f2; /* Facebook blå */
+}
