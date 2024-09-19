@@ -1,0 +1,12 @@
+#main {
+    background-color: rgb(75, 104, 80);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    }
+    h1 {
+    color: #333;
+    }
+    img {
+        max-width: 20%;
+        height: auto;
+    }

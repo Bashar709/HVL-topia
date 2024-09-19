@@ -9,7 +9,7 @@
     text-decoration: none;
     outline: none;
     border: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: all .3s cubic-bezier(.38,1.15,.7,1.12);
     font-weight: normal;
     font-family: cursive;
