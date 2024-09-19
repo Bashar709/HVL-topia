@@ -394,9 +394,10 @@ header .navbar a:hover {
     border: gray solid 2px;
     margin: auto;
     width: 400px;
-    height: 380px;
+    height: 388px;
     margin-left: 700px;
     border-radius: 10px;
+    
 }
 
 .samarbeidOverskrift {
