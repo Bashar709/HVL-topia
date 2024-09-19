@@ -399,7 +399,7 @@ header .navbar a:hover {
 }
 
 .samarbeidOverskrift {
-    margin: auto;
+    margin: auto;  
     text-align: center;
     font-size: 2em;
     color: black;
@@ -477,3 +477,4 @@ header .navbar a:hover {
     margin-right: 700px;
     
 }
+
