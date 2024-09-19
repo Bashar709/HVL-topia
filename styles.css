@@ -9,7 +9,7 @@
     text-decoration: none;
     outline: none;
     border: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: all .3s cubic-bezier(.38,1.15,.7,1.12);
     font-weight: normal;
     font-family: cursive;
@@ -53,6 +53,7 @@ section {
     text-align: center;
     text-transform: uppercase;
     padding: 1rem;
+    padding-top: 40px;
 }
 
 header {
@@ -166,7 +167,9 @@ header .navbar a:hover {
     color: #999;
     padding: 1rem 0;
 }
-
+.project {
+    padding-top: 90px;
+}
 .project .box-container {
     display: flex;
     align-items: center;
