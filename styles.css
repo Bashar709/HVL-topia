@@ -385,3 +385,24 @@ header .navbar a:hover {
 .footer .credit span {
     color: var(--green);
 }
+
+.samarbeidBoks {
+    border: gray solid 2px;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    margin-left: 700px;
+}
+
+.samarbeidOverskrift {
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+}
+
+.samarbeidTekst {
+    padding: 20px;
+    font-size: 1.4em;
+    text-align: center;
+}
