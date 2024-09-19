@@ -3,4 +3,5 @@
 **det er for å gjør det enklre å vedlikholde, css filen er delt i seaction og class so det er enklet å finne ut om det evt. skulle ha blitt endringer**
 
 -test
+-test andreas
 
