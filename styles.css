@@ -170,6 +170,7 @@ header .navbar a:hover {
 .project {
     padding-top: 90px;
 }
+
 .project .box-container {
     display: flex;
     align-items: center;
@@ -206,6 +207,8 @@ header .navbar a:hover {
 
 .project .box-container .box:hover .title {
     bottom: -100%;
+    font-size: 3px;
+    
 }
 
 .project .box-container .box .info {
@@ -226,7 +229,7 @@ header .navbar a:hover {
 
 .project .box-container .box .info h3 {
     color: var(--green);
-    font-size: 2rem;
+    font-size: 1.5rem; /* Fast størrelse for overskriften */
 }
 
 .project .box-container .box .info p {
@@ -243,6 +246,7 @@ header .navbar a:hover {
 .project .box-container .box .info a:hover {
     color: var(--green);
 }
+
 
 .team {
     background: #eee;
