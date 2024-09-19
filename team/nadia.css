@@ -1,0 +1,18 @@
+header {
+    background-color: #004d40; /* Mørk grønn bakgrunn */
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+header .profileImage {
+    width: 120px; /* Juster størrelse på bilde */
+    height: 120px;
+    border-radius: 50%; /* Rundt bilde */
+    border: 4px solid #fff; /* Hvit kant rundt bilde */
+    display: block;
+    margin: 0 auto 15px;
+    object-fit: cover; /* Sørger for at bilde holder proporsjoner */
+}
