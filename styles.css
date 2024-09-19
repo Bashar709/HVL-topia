@@ -53,6 +53,7 @@ section {
     text-align: center;
     text-transform: uppercase;
     padding: 1rem;
+    padding-top: 4rem;
 }
 
 header {
@@ -557,4 +558,25 @@ header .navbar a:hover {
 
 #send-btn:hover {
     background-color: #0056b3;
+}
+
+.samarbeidBoks {
+    border: gray solid 2px;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    margin-left: 700px;
+}
+
+.samarbeidOverskrift {
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+}
+
+.samarbeidTekst {
+    padding: 20px;
+    font-size: 1.4em;
+    text-align: center;
 }
