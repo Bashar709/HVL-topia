@@ -424,6 +424,7 @@ header .navbar a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     position: relative;
+    margin-right: 600px;
 }
 
 .chat-box {
@@ -481,7 +482,7 @@ header .navbar a:hover {
     
     padding: 0;
     display: flex;
-    margin-right: 700px;
+    
     
 }
 
