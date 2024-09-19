@@ -5,7 +5,8 @@ const botResponses = {
     "hvordan fungerer nettsiden?": "Denne nettsiden er en enkel demo av nettstedet som skal designes. Nettsiden bruker elementer hovedsakelig fra HTML og CSS, men også litt javascript.",
     "hva er dette nettstedet?": "Dette nettstedet er HVLtopia, et nettsted dom fokuserer på bærekraft og sammfunnsansvar",
     "hvem har laget denne nettsiden?": "Denne nettssiden er laget av: Mats Rui, Teodor Ørjansen, Nadia Lambrecht, Jenny Hopland, Alex Jakobsen, Bashar Mohamad og Andreas Ødegård",
-    "1": "hva handler spørsmålet om" 
+    "1": "hva handler spørsmålet om? Skriv a, b eller c\na. Jeg ønsker å vite hva prosjektet handler om.\nb. Jeg ønsker å vite hva dere gjør i prosjektet.\nc. Annet",
+    "2": "hva handler spørsmålet om? Skriv a, b eller c\n"
 };
 
 // Elementer fra HTML
