@@ -4,7 +4,8 @@ const botResponses = {
     "hva kan jeg gjøre?": "Dette er utvalget av kommandoer: Hva er dette nettstedet?, Hvordan fungerer nettsiden?, Hvem har leget denne nettsiden?",
     "hvordan fungerer nettsiden?": "Denne nettsiden er en enkel demo av nettstedet som skal designes. Nettsiden bruker elementer hovedsakelig fra HTML og CSS, men også litt javascript.",
     "hva er dette nettstedet?": "Dette nettstedet er HVLtopia, et nettsted dom fokuserer på bærekraft og sammfunnsansvar",
-    "hvem har laget denne nettsiden?": "Denne nettssiden er laget av: Mats Rui, Teodor Ørjansen, Nadia Lambrecht, Jenny Hopland, Alex Jakobsen, Bashar Mohamad og Andreas Ødegård"
+    "hvem har laget denne nettsiden?": "Denne nettssiden er laget av: Mats Rui, Teodor Ørjansen, Nadia Lambrecht, Jenny Hopland, Alex Jakobsen, Bashar Mohamad og Andreas Ødegård",
+    "1": "hva handler spørsmålet om" 
 };
 
 // Elementer fra HTML
