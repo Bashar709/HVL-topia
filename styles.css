@@ -463,3 +463,13 @@ header .navbar a:hover {
 #send-btn:hover {
     background-color: #0056b3;
 }
+.layout{
+
+    list-style: none;
+    float: right;
+    
+    padding: 0;
+    display: flex;
+    margin-right: 700px;
+    
+}
