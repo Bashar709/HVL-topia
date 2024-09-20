@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #1a1a1a; /* Dark black-gray background */
+    background-color: #1a1a1a; 
     color: white;
     display: flex;
     justify-content: center;
@@ -17,25 +17,25 @@ body {
 .about-container {
     display: flex;
     align-items: center;
-    background-color: #333; /* Dark gray for container */
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    background-color: #333; 
+    border-radius: 15em;
+    box-shadow: 0 8em 20em rgba(0, 0, 0, 0.5);
     width: 90%;
-    max-width: 800px;
+    max-width: 800em;
     overflow: hidden;
 }
 
 .profile-section {
     flex: 1;
     text-align: center;
-    background-color: #444; /* Slightly lighter background for the image section */
+    background-color: #444; 
 }
 
 .profile-pic {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 0;
+    width: 60%;
+    height: 60%;
+    object-fit: scale-down;
+    border-radius: 1;
 }
 
 .text-section {
@@ -51,18 +51,18 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2.0em;
     margin-bottom: 20px;
-    color: #dddddd; /* Light gray for subheading */
+    color: #dddddd; 
 }
 
 p {
     font-size: 1.1em;
     line-height: 1.6;
-    color: #cccccc; /* Slightly lighter gray for the paragraph */
+    color: #cccccc; 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 200em) {
     .about-container {
         flex-direction: column;
     }
