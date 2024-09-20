@@ -1,4 +1,3 @@
-/* Reset default styling */
 body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
@@ -7,27 +6,25 @@ body, h1, h2, h3, p, ul {
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f5f5f5; /* Lys bakgrunnsfarge */
+    background-color: #f5f5f5; 
     color: #333;
 }
 
 header {
-    background-color: #004d40; /* Mørk grønn bakgrunn */
+    background-color: #004d40; 
     color: #fff;
     padding: 30px;
     text-align: center;
     border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 header .profile-image {
-    width: 120px; /* Juster størrelse på bilde */
+    width: 120px; 
     height: 120px;
-    border-radius: 50%; /* Rundt bilde */
-    border: 4px solid #fff; /* Hvit kant rundt bilde */
+    border-radius: 50%; 
     display: block;
     margin: 0 auto 15px;
-    object-fit: cover; /* Sørger for at bilde holder proporsjoner */
+    object-fit: cover; 
 }
 
 header .contact-info p {
@@ -36,14 +33,12 @@ header .contact-info p {
 }
 
 .contact-link {
-    color: #fff; /* Hvit farge for lenker */
+    color: #fff; 
     text-decoration: none;
     transition: color 0.3s;
 }
 
-.contact-link:hover {
-    color: #cddc39; /* Lys grønn ved hover */
-}
+
 
 section {
     background-color: #fff;
@@ -52,12 +47,12 @@ section {
     border-radius: 12px;
     max-width: 800px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ddd; /* Lys grå ramme */
+    border: 1px solid #ddd; 
 }
 
 h2 {
     margin-bottom: 15px;
-    color: #004d40; /* Mørk grønn overskrift */
+    color: #004d40; 
     border-bottom: 3px solid #004d40;
     padding-bottom: 10px;
 }
@@ -75,9 +70,9 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 20px;
-    background-color: #004d40; /* Mørk grønn bakgrunn */
+    background-color: #004d40; 
     color: #fff;
-    border-top: 3px solid #00251a; /* Mørkere grønn ramme over footeren */
+    border-top: 3px solid #00251a; 
     border-radius: 12px;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -85,7 +80,6 @@ footer {
 
 
 
-/* Styling for sosiale medieknapper */
 .social-media {
     margin-top: 20px;
     text-align: center;
@@ -93,25 +87,13 @@ footer {
 
 .social-media a {
     text-decoration: none;
-    color: #fff; /* Hvit farge for ikoner */
+    color: #fff; 
     margin: 0 15px;
-    font-size: 32px; /* Større ikoner */
+    font-size: 32px; 
     transition: color 0.3s, transform 0.3s;
     display: inline-block;
 }
 
 .social-media a:hover {
-    transform: scale(1.2); /* Zoom-effekt ved hover */
-}
-
-.social-media .fa-linkedin:hover {
-    color: #0077b5; /* LinkedIn blå */
-}
-
-.social-media .fa-github:hover {
-    color: #333; /* GitHub svart */
-}
-
-.social-media .fa-facebook-f:hover {
-    color: #1877f2; /* Facebook blå */
+    transform: scale(1.2); 
 }
