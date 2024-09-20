@@ -4,9 +4,59 @@
     margin: 20px;
     }
     h1 {
-    color: #333;
+    color: #1a1a1a;
     }
     img {
         max-width: 20%;
         height: auto;
+    }
+    button {
+        color: black;
+    }
+    .knapp {
+        position: relative;
+        display: inline-block;
+        margin: auto;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-btn {
+        background-color: #000000;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    
+    .dropdown-content {
+        display: none; /* Skjuler dropdown-innholdet som standard */
+        position: absolute;
+        background-color: #000000ad;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(108, 108, 108, 0.2);
+        z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block; /* Viser dropdown-innholdet når musen er over dropdownen */
+    }
+    
+    .dropdown-content a {
+        color: rgb(255, 255, 255);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #7c7c7c;
+    }
+
+    @media (max-width: 600px) {
+
     }
