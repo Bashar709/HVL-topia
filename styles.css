@@ -106,7 +106,7 @@ header .navbar a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(90deg, rgba(0, 0, 0, .9), transparent), url(bilder/hvl.bg1.jpg) no-repeat;
+    background: linear-gradient(90deg, rgba(0, 0, 0, .9), transparent), url(bilder/campus-bergen\ bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -327,7 +327,6 @@ header .navbar a:hover {
 }
 
 .footer {
-    background: url(../images/footer-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -389,6 +388,7 @@ header .navbar a:hover {
 .footer .credit span {
     color: var(--green);
 }
+
 
 .samarbeidBoks {
     border: gray solid 2px;
