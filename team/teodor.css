@@ -4,11 +4,19 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder 5%;
+
 }
 h1 {
     text-align: center;
     color: white;
-    padding: top 2%;
+    padding-top: 1%;
+}
+h2 {
+    text-align: center;
+    color: white;
+    padding-bottom: 2%;
 }
 p {
     text-align: center;
@@ -16,11 +24,29 @@ p {
     line-height: 140%;
     color: white;
     padding: 3%;
+    padding-top: 0%;
+}
+header {
+    background-color: rgb(47, 47, 47);
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+.contactBox {
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+    margin-top: 20%;
+    padding-top: 0.5%;
 }
 .textBox {
     width: 80%;
     margin: auto;
     padding: auto;
-    background-color: black;
-    opacity: 70%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 10%;
+    margin-bottom: 2%;
+    padding-top: 0.5%;
 }
