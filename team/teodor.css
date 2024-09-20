@@ -1,0 +1,26 @@
+body {
+    background-image: url(bildeTeam/teodorHistorie.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1 {
+    text-align: center;
+    color: white;
+    padding: top 2%;
+}
+p {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 140%;
+    color: white;
+    padding: 3%;
+}
+.textBox {
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    background-color: black;
+    opacity: 70%;
+}
