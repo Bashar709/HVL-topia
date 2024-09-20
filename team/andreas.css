@@ -7,18 +7,20 @@ head    {
 }
 body    {
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-background-color: violet;
+
 font-size: x-large;
+background-color: rgb(57, 14, 214);
+    color: rgb(255, 225, 53);
 }
 h1  {  
 color: red;
-background-color: lightblue
+background-color: beige;
 font-size: 78px;
 padding-right 50px;
 }
-p2 { 
-    background-color: beige;
-    color: brown;
-}
 
-footer
+
+    
+
+
+footer{}
