@@ -52,4 +52,17 @@ header {
 }
 button {
     text-align: center;
+    margin-left: 42.5%;
+    width: 200px;
+    height: 55px;
+    font-size: 1.5em;
+    border-radius: 10%;
+    border: black solid 2px;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: rgb(211, 211, 211);
 }
