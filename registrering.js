@@ -15,10 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault(); // Forhindrer at skjemaet sender en forespørsel
         const name = nameInput.value.trim();
 
-        if (name) {
-            localStorage.setItem('userName', name);
-            showMyPage(name);
-        }
+       
     });
 
     // Vis "Min Side" med brukerens navn
