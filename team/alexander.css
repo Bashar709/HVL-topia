@@ -1,0 +1,65 @@
+/* Reset some default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic settings */
+body {
+    font-family: Calibri, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+/* Header styles */
+header h2 {
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 3rem; /* Slightly increased "Min side" */
+}
+
+/* Main container for image and text */
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 100px;
+    max-width: 1400px; /* Slightly wider max width */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Image container settings */
+.image-container img {
+    max-width: 400px; /* Larger image size */
+    height: auto;
+    margin-right: 30px; /* Added more space between image and text */
+    border-radius: 10px;
+}
+
+/* Text layout */
+.text-container {
+    flex: 1;
+    max-width: 700px; /* Increased text width */
+}
+
+.text-container h1 {
+    text-align: center;
+    font-size: 3rem; /* Increased font size for heading */
+}
+
+.text-container h3 {
+    text-align: center;
+    font-size: 2.5rem; /* Increased font size for sub-heading */
+}
+
+.text-container p {
+    text-align: center; /* Centering the paragraph */
+    margin-top: 20px;
+    line-height: 1.6;
+    font-size: 1.5rem; /* Increased font size for paragraph */
+}
