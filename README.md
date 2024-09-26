@@ -8,5 +8,6 @@
 =======
 **Koden så langt: hjem, om prosjekt, kontakt og samarbeid filer knytta til en css fil**
 **det er for å gjør det enklere å vedlikeholde, css filen er delt i section og class så det er enklere å finne ut om det evt. skulle ha blitt endringer**
+-- innlevering del 1
 >>>>>>> 5ce7bdb61dd28c4ff47d146cd67d5fc73c8ff6a3
 
