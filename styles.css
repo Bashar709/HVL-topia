@@ -240,6 +240,12 @@ header .navbar a:hover {
   padding: 1rem 0;
 }
 
+.project .box-container .box .info ul {
+  color: #888;
+  font-size: 1.3rem;
+  padding: 1rem 0;
+}
+
 .project .box-container .box .info a {
   color: #666;
   font-size: 1.4rem;
@@ -249,6 +255,23 @@ header .navbar a:hover {
   color: var(--green);
 }
 
+.transport .box-container .box {
+  border-radius: 50%;
+  
+}
+.transport .box-container .box img {
+position: relative;
+width: 32vw;
+border-radius: 1%;
+box-shadow: 0 0 25 px solid #1d2c25;
+cursor: pointer;
+transition: 0.2s linear;
+}
+
+.transport .box-container .box a {
+  color: #222;
+  font-size: 1.4rem;
+}
 
 .team {
   background: #eee;
@@ -303,7 +326,7 @@ header .navbar a:hover {
 
 .team .box-container .box .info p {
   font-size: 1.5rem;
-  color: #999;
+  color: #888;
 }
 
 .team .box-container .box .info .share {
