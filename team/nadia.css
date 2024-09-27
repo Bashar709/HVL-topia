@@ -10,7 +10,7 @@
 
 header .profileImage {
     width: 210px; 
-    height: 210px;
+    height: 210px; 
     border-radius: 50%; 
     display: block;
     margin-right: 10px;
@@ -46,6 +46,7 @@ header .profileImage {
     margin-top: 10px;
 }
 
+
 .socials-header {
     display: inline-flex;
     padding-left: 0;
@@ -55,6 +56,7 @@ header .profileImage {
     margin-left: 0;
 }
 
+/* logo */
 .socials-header a {
     color: #507e5e;
     transition: filter 0.3s;
@@ -63,11 +65,15 @@ header .profileImage {
     vertical-align: middle; */
 }
 
+/* endre farge logo ved hover */
 .socials-header a:hover {
     color: rgb(104, 101, 101);
+    transition: filter 0.3s;
 }
 
+/* endre farge sirkel hover */
 .circle-icon:hover {
+    transition: filter 0.3s;
     background: rgb(184, 182, 182);
 }
 
@@ -82,6 +88,64 @@ header .profileImage {
     /* padding-left: 10px; */
 }
 
+.middle-wrapper {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #d5eadc;
+}
+
+.first-textblock {
+    /* color: #d5eadc; */
+    padding: 40px;
+}
+
+.second-textblock {
+    padding: 40px;
+}
+
+.history {
+    align-items: center;
+    border-radius: 10px;
+    background: whitesmoke;
+    padding: 10px;
+}
+
+.coding-music {
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: whitesmoke;
+
+}
+
+.songs-list {
+    /* display: flex; */
+    align-items: center;
+    list-style: none; 
+    padding: 0px;
+    /* margin-left: 10px; */
+}
+
+.songs-list li {
+    margin-bottom: 15px;
+}
+
+.songs-list i {
+    color: #507e5e;
+}
+
+.songs-list a {
+    color: #585b60;
+    padding-left: 5px;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 38px;
@@ -91,5 +155,5 @@ h1 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
-    color: #3f454c;
+    color: #585b60;
 }
