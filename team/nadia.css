@@ -17,6 +17,23 @@ header .profileImage {
     object-fit: cover; 
 }
 
+.return-button {
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    background-color: #507e5e;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    right: 50px;
+    top: 50px;
+}
+
+.return-button:hover {
+    background-color: rgb(104, 101, 101);
+}
+
 .container {
     width: 1470px;
     padding-left: 5px;
@@ -144,6 +161,12 @@ header .profileImage {
 .songs-list a {
     color: #585b60;
     padding-left: 5px;
+    text-decoration: none;
+}
+
+.songs-list i:hover,
+.songs-list a:hover {
+    font-weight: bold;
 }
 
 h1 {
