@@ -1,5 +1,5 @@
 :root {
-  --green: #27ae60;
+  --green: #20924f;
 }
 
 * {
@@ -9,10 +9,8 @@
   text-decoration: none;
   outline: none;
   border: none;
-  /* text-transform: capitalize; */
   transition: all .3s cubic-bezier(.38, 1.15, .7, 1.12);
   font-weight: normal;
-  /* font-family: cursive; */
 }
 
 *::selection {
@@ -36,7 +34,7 @@ section {
   border: .2rem solid var(--green);
   font-size: 1.7rem;
   color: var(--green);
-  background: rgba(0, 255, 0, .1);
+  background: rgba(0, 255, 0, 0.004);
   margin-top: 1rem;
   padding: .7rem 3rem;
 }
@@ -49,7 +47,7 @@ section {
 
 .heading {
   font-size: 3.5rem;
-  color: #666;
+  color: #555;
   text-align: center;
   text-transform: uppercase;
   padding: 1rem;
@@ -84,7 +82,7 @@ header {
 header .navbar a {
   font-size: 1.7rem;
   margin-left: 2rem;
-  color: #666;
+  color: #555;
 }
 
 header .navbar a:hover {
@@ -93,7 +91,7 @@ header .navbar a:hover {
 
 #menu {
   font-size: 2.5rem;
-  color: #666;
+  color: #555;
   border: .1rem solid rgba(0, 0, 0, .1);
   border-radius: .5rem;
   padding: 1rem 1.5rem;
@@ -106,7 +104,7 @@ header .navbar a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(90deg, rgba(0, 0, 0, .9), transparent), url(bilder/campus-bergen\ bg.jpg) no-repeat;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), transparent), url(bilder/campus-bergen\ bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -123,7 +121,7 @@ header .navbar a:hover {
 }
 
 .home .content p {
-  color: #aaa;
+  color: #bbb;
   font-size: 1.9rem;
   padding: 1rem 0;
 }
@@ -256,32 +254,30 @@ header .navbar a:hover {
 }
 
 .transport .box-container .box {
-  border-radius: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 8rem;
+  gap: 5rem;
   background-color: transparent;
+  padding: 3%;
 }
 
 .transport .box-container .box .content{
   font-size: 2rem;
   margin-bottom: 1rem;
-  font-weight: 700;
 }
 
 .transport .box-container .box img {
-position: relative;
-width: 32vw;
+position: flex;
+width: 23vw;
 border-radius: 1%;
-box-shadow: 0 0 25 px solid #1d2c25;
 cursor: pointer;
 transition: 0.2s linear;
 }
 
 .transport .box-container .box a {
   color: #222;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .team {
