@@ -257,8 +257,19 @@ header .navbar a:hover {
 
 .transport .box-container .box {
   border-radius: 50%;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  background-color: transparent;
 }
+
+.transport .box-container .box .content{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
 .transport .box-container .box img {
 position: relative;
 width: 32vw;
