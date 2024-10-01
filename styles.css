@@ -549,6 +549,69 @@ transition: 0.2s linear;
 
   padding: 0;
   display: flex;
+}
 
+/* Kontakt skjema - kontakt-og-samarbeid */
 
+.kontakt-boks-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+  
+.kontakt-boks {
+  background-color: rgba(213, 222, 214, 0.875);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  display: flex;
+  text-align: center;
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+}
+
+.kontakt-skjema {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+.kontakt-skjema h1 {
+  padding: 20px;
+}
+
+.kontakt-skjema-informasjon {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+.kontakt-skjema-logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.kontakt-skjema-informasjon p {
+  text-align: center;
+  padding: 10px;
+}
+
+.boks-skjema-wrapper {
+margin: 0px;
+}
+
+.boks-skjema-wrapper .input-style {
+  margin: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.kontakt-skjema-submit-button {
+  background-color: #b5dac3c5;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.kontakt-skjema-submit-button:hover {
+  background-color: #aad3b9dc;
 }
