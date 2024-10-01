@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrering for Arrangement</title>
+    <link rel="stylesheet" href="reg.css">
+    <link rel="stylesheet" href="../styles.css">
+
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <a href="../hjem.html">
+            <img src="../bilder/HVL logo.png" alt="hvl topia sin logo">
+        </a>
+    </div>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="../hjem.html">Hjem</a>
+        <a href="../omProsjekt.html">Om prosjekt</a>
+        <a href="../Losning.html">Løsninger</a>
+        <a href="../KontaktOGsamarbeid.html">Kontakt og samarbeid</a>
+        <a href="../foredrag.html">Informasjonskampanjer</a>
+        <a href="../omOss.html">Om oss</a>
+    </nav>
+</header>
+
+<section class="home">
+    <div class="content">
+        <h3>Registrer deg for arrangementet</h3>
+        <p>Fyll ut skjemaet nedenfor for å registrere deg for å delta på arrangementet.</p>
+    </div>
+</section>
+
+<!-- Registreringsskjema -->
+<section class="registration" id="registration">
+    <h1 class="heading">Registreringsskjema</h1>
+    <div class="box-container">
+        <div class="box">
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="firstName">Fornavn:</label>
+                    <input type="text" id="firstName" name="firstName" required placeholder="Skriv inn ditt fornavn">
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Etternavn:</label>
+                    <input type="text" id="lastName" name="lastName" required placeholder="Skriv inn ditt etternavn">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-post:</label>
+                    <input type="email" id="email" name="email" required placeholder="Skriv inn din e-post">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefon:</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="Skriv inn telefonnummeret ditt">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Emne:</label>
+                    <input type="text" id="subject" name="subject" placeholder="Skriv inn emnet">
+                </div>
+       
+                <button type="submit" class="btn">Meld deg</button>
+            </form>
+
+<!--Bekreftelse på registrering-->
+            <div id="confirmationMessage" class="alert alert-success" style="display: none;">
+                Takk for registreringen! Du vil motta en bekreftelse på e-post.
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="hava.js"></script>
+</body>
+</html>
+  
+
+<!--Måtte ha en css fil på class navn ble same som de andre classene inn på hvoed stylen-->
