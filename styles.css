@@ -250,6 +250,58 @@ header .navbar a:hover {
 }
 
 
+.event{
+  background:#F6FCFF;
+}
+
+.event .box-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.event .box-container .box{
+  width:35rem;
+  margin:1.5rem;
+  border-radius: .5rem;
+  box-shadow:  0 .5rem 1rem rgba(0,0,0,.1);
+  overflow: hidden;
+  background:#fff;
+}
+
+.event .box-container .box img{
+  height: 20rem;
+  width:100%;
+  object-fit: cover;
+}
+
+.event .box-container .box .content{
+  padding:1.5rem;
+}
+
+.event .box-container .box .content h3{
+  font-size: 1.5rem;
+  color:var(--green);
+}
+
+.event .box-container .box .content .title{
+  font-size: 2rem;
+  color:#333;
+  display: block;
+  padding-top: 1rem;
+}
+
+.event .box-container .box .content .title:hover{
+  text-decoration: underline;
+}
+
+.event .box-container .box .content p{
+  padding:1rem 0;
+  color:#999;
+  font-size: 1.4rem;
+}
+
 .team {
   background: #eee;
 }
@@ -306,27 +358,6 @@ header .navbar a:hover {
   color: #999;
 }
 
-.team .box-container .box .info .share {
-  border-top: .1rem solid rgba(0, 0, 0, .1);
-  margin-top: 1rem;
-  padding: 1rem 0;
-}
-
-.team .box-container .box .info .share a {
-  font-size: 1.7rem;
-  color: #999;
-  margin: .5rem;
-  height: 4rem;
-  width: 4.5rem;
-  line-height: 4rem;
-  border: .1rem solid rgba(0, 0, 0, .1);
-  border-radius: .5rem;
-}
-
-.team .box-container .box .info .share a:hover {
-  color: #fff;
-  background: var(--green);
-}
 
 .footer {
   background-size: cover;
