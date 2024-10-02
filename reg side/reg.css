@@ -1,77 +1,69 @@
-
-
-
-
-
-
-/* Registreringsseksjon Stiler */
 .registration {
-  background-color: #f0f0f0; /* Lys grå bakgrunn for kontrast */
-  padding: 40px; /* Liten padding for rom */
-  border-radius: 10px; /* Rundede hjørner */
-  margin: 20px auto; /* Margin for å sentrere seksjonen */
-  max-width: 800px; /* Maksimal bredde for seksjonen */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Skjermskygge for dybde */
+  background-color: #f0f0f0; 
+  padding: 40px; 
+  border-radius: 10px; 
+  margin: 20px auto; 
+  max-width: 800px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
-
 .registration h1.heading {
-  text-align: center; /* Midtstill overskriften */
-  font-size: 28px; /* Større skriftstørrelse */
-  margin-bottom: 20px; /* Margin under overskriften */
+  text-align: center; 
+  font-size: 28px; 
+  margin-bottom: 20px;
 }
 
 .box-container {
   display: flex;
-  flex-direction: column; /* Kolonnevisning for skjemaet */
-  align-items: center; /* Sentrer innhold */
+  flex-direction: column; 
+  align-items: center; 
 }
 
 .box {
-  width: 100%; /* Full bredde */
+  width: 100%; 
 }
 
 .form-group {
-  margin-bottom: 20px; /* Margin mellom feltene */
+  margin-bottom: 20px; 
 }
 
 label {
-  display: block; /* Forsikre deg om at etiketten er blokkvis */
-  font-weight: bold; /* Fet skrift for etiketter */
-  margin-bottom: 5px; /* Margin under etiketten */
+  display: block; 
+  font-weight: bold; 
+  margin-bottom: 5px; 
 }
 
 input[type="text"],
 input[type="email"],
 input[type="tel"] {
-  width: 100%; /* Full bredde for input-feltene */
-  padding: 10px; /* Padding for behagelig avstand */
-  border-radius: 5px; /* Rundede hjørner */
-  border: 1px solid #ced4da; /* Lys grå kantfarge */
-  transition: border-color 0.3s; /* Myk overgang for kantfargen */
+  width: 100%; 
+  padding: 10px; 
+  border-radius: 5px; 
+  border: 1px solid #ced4da; 
+  transition: border-color 0.3s; 
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="tel"]:focus {
-  border-color: #007bff; /* Endre kantfargen ved fokus */
+  border-color: #007bff; 
 }
 
 .btn {
-  background-color: #007bff; /* Primær farge for knappen */
-  color: white; /* Hvit tekstfarge */
-  padding: 10px 15px; /* Padding for knappen */
-  border: none; /* Ingen kant */
-  border-radius: 5px; /* Rundede hjørner */
-  cursor: pointer; /* Endre musepekeren til hånd */
-  transition: background-color 0.3s; /* Myk overgang for bakgrunnsfargen */
+  background-color: #007bff; 
+  color: white; 
+  padding: 10px 15px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s; 
 }
 
 .btn:hover {
-  background-color: #0056b3; /* Mørkere blå ved hover */
+  background-color: #0056b3; 
 }
 
 .alert {
-  margin-top: 20px; /* Margin over bekreftelsesmeldingen */
-  padding: 15px; /* Padding for meldingen */
-  border-radius: 5px; /* Rundede hjørner */
+  margin-top: 20px; 
+  padding: 15px; 
+  border-radius: 5px; 
 }
