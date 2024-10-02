@@ -545,9 +545,8 @@ transition: 0.2s linear;
 .layout {
 
   list-style: none;
-  float: right;
+  float: right; 
 
   padding: 0;
   display: flex;
-}
-
+} 
