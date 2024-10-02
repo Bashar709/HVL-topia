@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+header h2 {
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 3rem;
+}
+
+.navbar {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dropbtn:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    background-color: white;
+    white-space: nowrap;
+    z-index: 1;
+    transition: transform 0.3s ease;
+    transform: translateX(100%);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transform: translateX(0);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 100px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-container img {
+    max-width: 400px;
+    height: auto;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background-image: linear-gradient(white, white), radial-gradient(circle, purple, rgba(128,0,128,0.5));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 0 0 15px purple;
+}
+
+.text-container {
+    flex: 1;
+    max-width: 700px;
+}
+
+.text-container h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.text-container h3 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.text-container p {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.6;
+    font-size: 1.5rem;
+}
