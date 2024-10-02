@@ -549,4 +549,144 @@ transition: 0.2s linear;
 
   padding: 0;
   display: flex;
+<<<<<<< HEAD
 } 
+=======
+
+
+/* Kontakt skjema - kontakt-og-samarbeid */
+
+.kontakt-boks-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+  
+.kontakt-boks {
+  background-color: rgba(213, 222, 214, 0.875);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  display: flex;
+  text-align: center;
+  /* align-items: center; */
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+}
+
+.kontakt-skjema {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  width: 500px;
+  height: 500px;
+}
+
+.kontakt-skjema h1 {
+  padding: 20px;
+}
+
+.kontakt-skjema-informasjon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* display: inline-block; */
+  /* text-align: center; */
+  padding: 20px;
+  width: 300px;
+  /* margin-bottom: 50px; */
+  padding-bottom: 120px;
+  /* align-items: center; */
+}
+
+.kontakt-skjema-logo {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  margin-bottom: -40px;
+}
+
+.kontakt-skjema-informasjon p {
+  text-align: center;
+  padding: 10px;
+}
+
+.boks-skjema-wrapper {
+margin: 0px;
+display: flex;
+flex-direction: column;
+}
+
+.boks-skjema-wrapper .input-style {
+  margin: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  padding: 10px;
+}
+
+.boks-skjema-overskrift {
+  text-align: left;
+  padding-left: 10px;
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.boks-skjema-overskrift, .kontakt-skjema-overskrift, .kontakt-skjema-submit-button, .kontakt-skjema-informasjon p, #kontakt-popup p  {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.kontakt-skjema-submit-button {
+  background-color: #b5dac3c5;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.kontakt-skjema-submit-button:hover {
+  background-color: #8db59cdc;
+}
+
+/* Kontakt skjema popup */
+
+#kontakt-popup {
+  display: none;
+  background-color: whitesmoke;
+  /* background: whitesmoke; */
+  width: 220px;
+  height: 150px;
+  position: fixed;
+  border: 2px solid #7bb894;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  z-index: 1000;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#kontakt-overlay {
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.popup-close-button {
+  background: #b5dac3c5;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.popup-close-button:hover {
+  background: #8db59cdc;
+}
+>>>>>>> 2644d7505ef5fc5a579f1bea579066633297a916
