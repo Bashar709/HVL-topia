@@ -595,10 +595,7 @@ transition: 0.2s linear;
 
   padding: 0;
   display: flex;
-<<<<<<< HEAD
-} 
-=======
-
+}
 
 /* Kontakt skjema - kontakt-og-samarbeid */
 
@@ -735,4 +732,3 @@ flex-direction: column;
 .popup-close-button:hover {
   background: #8db59cdc;
 }
->>>>>>> 2644d7505ef5fc5a579f1bea579066633297a916

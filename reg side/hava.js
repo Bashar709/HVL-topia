@@ -1,7 +1,13 @@
-document.getElementById('registrationForm').onsubmit = function(event) {
-    event.preventDefault(); 
+document.addEventListener('DOMContentLoaded', function() {
+    // Show the popup when the form is submitted
+    document.getElementById('registrationForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+        document.getElementById('kontakt-popup').style.display = 'block'; // Show the popup
+    });
 
-    document.getElementById('registrationForm').style.display = 'none';
-
-    document.getElementById('confirmationMessage').style.display = 'block';
-};
+    // Close the popup when the close button is clicked
+    document.getElementById('close-popup').addEventListener('click', function() {
+        document.getElementById('kontakt-popup').style.display = 'none'; // Hide the popup
+        document.getElementById('registrationForm').reset(); // Reset the form fields
+    });
+});
