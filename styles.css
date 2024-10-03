@@ -210,6 +210,11 @@ header .navbar a:hover {
   padding-top: 7%;
 }
 
+.project .intro-text {
+  padding-top: 0.5%;
+  padding-bottom: 2%;
+}
+
 .project .box-container {
   display: flex;
   align-items: center;
