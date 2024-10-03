@@ -51,7 +51,7 @@ section {
   text-align: center;
   text-transform: uppercase;
   padding: 1rem;
-  padding-top: 70px;
+  padding-top: 40px;
 }
 
 header {
@@ -167,7 +167,7 @@ header .navbar a:hover {
 }
 
 .project {
-  padding-top: 130px;
+  padding-top: 105px;
 }
 
 .project .box-container {
