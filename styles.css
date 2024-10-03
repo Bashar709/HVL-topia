@@ -104,7 +104,7 @@ header .navbar a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), transparent), url(bilder/campus-bergen\ bg.jpg) no-repeat;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.4), transparent), url(bilder/campus-bergen\ bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
