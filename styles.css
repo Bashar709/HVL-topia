@@ -254,7 +254,7 @@ padding-top: 0.5%;
   left: 0;
   width: 100%;
   font-size: x-large;
-  color: #fff;
+  color: #ffffff;
   background: linear-gradient(transparent, rgba(0, 0, 0, .9));
   padding: 2rem;
 }
@@ -266,7 +266,7 @@ padding-top: 0.5%;
 }
 
 .project .box-container .box .info {
-  background: #fff;
+  background:white;
   border-radius: .5rem;
   padding: 1.5rem;
   position: absolute;
@@ -282,7 +282,7 @@ padding-top: 0.5%;
 }
 
 .project .box-container .box .info h3 {
-  color: var(--green);
+  color: white;
   font-size: 1.5rem;
   /* Fast størrelse for overskriften */
 }
@@ -294,13 +294,13 @@ padding-top: 0.5%;
 }
 
 .project .box-container .box .info ul {
-  color: #888;
+  color: black;
   font-size: 1.3rem;
-  padding: 1rem 0;
+  padding-left: 10%;
 }
 
 .project .box-container .box .info a {
-  color: #666;
+  color: #ffffff;
   font-size: 1.4rem;
 }
 
