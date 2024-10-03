@@ -44,6 +44,8 @@ section {
   color: #fff;
   border-radius: 5rem;
 }
+
+
 /* Provided Styles */
 .heading {
   font-size: 3.5rem;
@@ -53,7 +55,6 @@ section {
   padding: 1rem;
   padding-top: 40px;
 }
-
 header {
   position: fixed;
   top: 0;
@@ -67,35 +68,29 @@ header {
   padding: 2rem 7%;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
-
 .logo {
   text-align: right;
   padding: 10px;
 }
-
 .logo img {
   width: 150px;
   height: 50px;
   object-fit: contain;
 }
-
 header .navbar a {
   font-size: 1.7rem;
   margin-left: 2rem;
   color: #555;
   text-decoration: none; /* Ensure links have no underline */
 }
-
 header .navbar a:hover {
   color: var(--green); /* Change this to the actual green color code */
 }
-
 /* Dropdown container */
 .dropdown {
   position: relative;
   display: inline-block;
 }
-
 /* Dropdown button */
 .dropbtn {
   color: #555;
@@ -105,7 +100,6 @@ header .navbar a:hover {
   background: none;
   padding: 0; /* No padding for the button */
 }
-
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
@@ -116,7 +110,6 @@ header .navbar a:hover {
   z-index: 1;
   border-radius: 5px;
 }
-
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
@@ -125,18 +118,17 @@ header .navbar a:hover {
   display: block;
   transition: background-color 0.3s;
 }
-
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
 }
-
 /* Show the dropdown content when hovering over the dropdown button */
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 /* Menu button (for mobile, if needed) */
+
+
 #menu {
   font-size: 2.5rem;
   color: #555;
@@ -144,9 +136,8 @@ header .navbar a:hover {
   border-radius: .5rem;
   padding: 1rem 1.5rem;
   cursor: pointer;
-  display: none; /* Keep this hidden for now */
+  display: none;
 }
-
 
 .home {
   min-height: 65vh;
@@ -216,16 +207,10 @@ header .navbar a:hover {
 }
 
 .project {
-  padding-top: 7%;
-}
-
-.project .intro-text {
-max-width: 100%;
-padding-top: 0.5%;
+  padding-top: 105px;
 }
 
 .project .box-container {
-  padding-top: 2%;
   display: flex;
   align-items: center;
   justify-content: center;
