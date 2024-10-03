@@ -77,6 +77,11 @@ header {
   height: 50px;
   object-fit: contain;
 }
+:focus {
+  outline: 3px solid var(--green);
+  background-color: rgba(32, 146, 79, 0.1); 
+}
+
 header .navbar a {
   font-size: 1.7rem;
   margin-left: 2rem;
