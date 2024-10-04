@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Side</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Registrer mail</h1>
+        <form id="registrationForm">
+            <input type="text" id="nameInput" placeholder="Skriv inn mailen din" required>
+            <button type="submit">Registrer</button>
+        </form>
+
+        <div id="myPage" class="hidden">
+            <h2>Velkommen <span id="userName"></span> du er registrert.</h2>
+        </div>
+    </div>
+  
+
+    <script src="registrering.js"></script>
+</body>
+</html>

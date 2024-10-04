@@ -1,53 +1,104 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HVL topia hjem</title>
 
-
     <link rel="stylesheet" href="styles.css">
 
-</head>
-<body>
-    
+  </head>
+  <body>
 
-<header>
+    <header>
 
-
-    <div class="logo">
-        <a href="hjem.html">
-            <img src="bilder/HVL logo.png" alt="hvl sin logo">
+      <div class="logo">
+        <a href="hjem.html" tabindex="1">
+          <img src="bilder/HVL logo.png" alt="hvl sin logo">
         </a>
-    </div>
+      </div>
 
+      <div id="menu" class="fas fa-bars"></div>
 
-    <div id="menu" class="fas fa-bars"></div>
-
-    <nav class="navbar">
-        <a href="hjem.html">Heim</a>
-        <a href="om prosjekt.html">Om prosjekt</a>
-        <a href="Losning.html">Løsning</a>
-        <a href="Kontakt og samarbeid.html">Kontakt og samarbeid</a>
-        <a href="foredrag.html">Foredrag</a>
-        <a href="om oss.html">Om oss</a>
-
+      <nav class="navbar">
+        <a href="hjem.html" tabindex="2">Hjem</a>
+        <a href="omProsjekt.html" tabindex="3">Om prosjekt</a>
+        
+        <!-- Dropdown for Løsninger -->
+        <div class="dropdown">
+            <a href="Losning.html" class="dropbtn" tabindex="4">Løsninger</a>
+            <div class="dropdown-content">
+                <a href="transportløsninger.html">Transportløsninger</a>
+                <a href="energisparendeTeknologier.html">Energisparende Teknologier</a>
+                <a href="sensorsystem.html">Sensorsystem</a>
+                <a href="foredrag.html">Informasjonskampanjer</a>
+            </div>
+        </div>
+    
+        <a href="KontaktSamarbeid.html" tabindex="5">Kontakt og samarbeid</a>
+        <a href="foredrag.html" tabindex="6">Informasjonskampanjer</a>
+        <a href="omOss.html" tabindex="7">Om oss</a>
     </nav>
 
-</header>
+    </header>
 
+    <section class="home" id="hjem">
 
-<section class="home" id="hjem">
-
-    <div class="content">
+      <div class="content">
         <h3>Velkommen til HVLtopia</h3>
-        <p>‘HVLtopia’ – et fremtidsrettet og bærekraftig Bergen, er et prosjekt og en plan til å bidra til en byutvikling som kombinerer effektivt bærekraft, tilgjengelighet og teknologisk innovasjon. 
-            Vi ønsker å inspirere til endringen som folk ønsker å se og vi vil inkludere samfunnet i jakten på vår Utopia.
-            Vi trenger deg, til å ta kontroll, til å ta grep og være en del av endringen du ønsker å se. Nettsiden vår og all informasjonen er et kart du kan følge for å bidra til å forbedre byen vår; sammen.
-            </p>
-        <a href="om prosjekt.html" class="btn">les mer</a>
-    </div>
+        <p>‘HVLtopia’ – et fremtidsrettet og bærekraftig Bergen, er et
+          prosjekt og en plan til å bidra til en byutvikling som
+          kombinerer effektivt bærekraft, tilgjengelighet og
+          teknologisk innovasjon.
+          Vi ønsker å inspirere til endringen som folk ønsker å se og
+          vi vil inkludere samfunnet i jakten på vår Utopia.
+          Vi trenger deg, til å ta kontroll, til å ta grep og være en
+          del av endringen du ønsker å se. Nettsiden vår og all
+          informasjonen er et kart du kan følge for å bidra til å
+          forbedre byen vår; sammen.
+        </p>
+        <a href="omProsjekt.html" class="btn" tabindex="8">Les mer</a>
+      </div>
 
-</section>
+    </section>
+    
+<div class="footer">
 
- </html>
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Om oss</h3>
+        <p>Vi er en gruppe engasjerte individer ved Høgskulen på Vestlandet som jobber for å fremme bærekraftige løsninger og innovative prosjekter. 
+          Teamet vårt består av eksperter innen teknologi, miljø og samfunnsvitenskap, 
+          og vi ønsker å skape en positiv innvirkning på samfunnet.</p>
+        </div>
+
+      <div class="box">
+          <h3>Les mer</h3>
+          <a href="https://www.bergen.kommune.no/" tabindex="9">Bergen kommune</a>
+          <a href="https://www.hvl.no/" tabindex="10">Høyskolen På Vestlandet</a>
+          <a href="https://fn.no/om-fn/fns-baerekraftsmaal/stoppe-klimaendringene" tabindex="11">Les Mer om Klimaendringene</a>
+      </div>
+
+      <div class="box">
+          <h3>Kontakt oss</h3>
+          <p> <i class="fas fa-phone" tabindex="12"></i> +47 123 32 112 </p>
+          <p> <i class="fas fa-envelope" tabindex="13"></i> hvltopia@hvltopia.no </p>
+          <p> <i class="fas fa-map-marker-alt" tabindex="14"></i>HVLtopia har kontor på Høgskulen på Vestlandet. Adressen er: <a href="https://www.google.com/maps?q=Inndalsveien+28,+5063" target="_blank" tabindex="15">Inndalsveien 28, 5063</a>
+          </p>
+                  </div>
+
+      <div class="box">
+          <h3>Følg oss</h3>
+          <a href="https://www.facebook.com/hvl.no" tabindex="16">Facebook</a>
+          <a href="#" tabindex="17">Twitter</a>
+          <a href="https://www.instagram.com/hvl.no/" tabindex="18">Instagram</a>
+      </div>
+
+  </div>
+
+</div>
+  
+</body>
+
+  </html>

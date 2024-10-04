@@ -1,0 +1,70 @@
+.registration {
+  background-color: #f0f0f0; 
+  padding: 40px; 
+  border-radius: 10px; 
+  margin: 20px auto; 
+  max-width: 800px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.registration h1.heading {
+  text-align: center; 
+  padding-top: 15%;
+  font-size: 28px; 
+  margin-bottom: 20px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.box {
+  width: 100%; 
+}
+
+.form-group {
+  margin-bottom: 20px; 
+}
+
+label {
+  display: block; 
+  font-weight: bold; 
+  margin-bottom: 5px; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%; 
+  padding: 10px; 
+  border-radius: 5px; 
+  border: 1px solid #ced4da; 
+  transition: border-color 0.3s; 
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+  border-color: #007bff; 
+}
+
+.btn {
+  background-color: #007bff; 
+  color: white; 
+  padding: 10px 15px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s; 
+}
+
+.btn:hover {
+  background-color: #0056b3; 
+}
+
+.alert {
+  margin-top: 20px; 
+  padding: 15px; 
+  border-radius: 5px; 
+}

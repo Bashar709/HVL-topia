@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HVL topia kontakt</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    
+<header>
+    <div class="logo">
+        <a href="hjem.html">
+            <img src="bilder/HVL logo.png" alt="hvl logo">
+        </a>
+    </div>
+    
+    <div id="menu" class="fas fa-bars"></div>
+    
+    <nav class="navbar">
+        <a href="hjem.html">Hjem</a>
+        <a href="omProsjekt.html">Om prosjekt</a>
+        
+        <!-- Dropdown for Løsninger -->
+        <div class="dropdown">
+            <a href="Losning.html" class="dropbtn">Løsninger</a>
+            <div class="dropdown-content">
+                <a href="transportløsninger.html">Transportløsninger</a>
+                <a href="energisparendeTeknologier.html">Energisparende Teknologier</a>
+                <a href="sensorsystem.html">Sensorsystem</a>
+                <a href="foredrag.html">Informasjonskampanjer</a>
+            </div>
+        </div>
+    
+        <a href="KontaktSamarbeid.html">Kontakt og samarbeid</a>
+        <a href="foredrag.html">Informasjonskampanjer</a>
+        <a href="omOss.html">Om oss</a>
+    </nav>
+    
+</header>
+
+<section class="team" id="team">
+    <h1 class="heading">Kontakt og samarbeid</h1>
+    <div class="kontakt-boks-wrapper">
+        <div class="kontakt-boks">
+            <div class="kontakt-skjema">
+                <h1 class="kontakt-skjema-overskrift">Kontakt oss</h1>
+                <form class="kontakt-skjema-innhold" id="contact-form">
+    
+                    <div class="boks-skjema-wrapper">
+                        <label class="boks-skjema-overskrift">Navn</label>
+                        <input class="input-style" type="text" name="name" required>
+                    </div>
+    
+                    <div class="boks-skjema-wrapper">
+                        <label class="boks-skjema-overskrift">E-postadresse</label>
+                        <input class="input-style" type="email" name="epost" required>
+                    </div>  
+    
+                    <div class="boks-skjema-wrapper">
+                        <label class="boks-skjema-overskrift">Emne</label>
+                        <select class="input-style" name="emne" required>
+                            <option value=""disabled selected>Velg et emne</option>
+                            <option value="Generelt">Generell henvendelse</option>
+                            <option value="Samarbeid">Samarbeid</option>
+                            <option value="Tilbakemelding">Tilbakemelding</option>
+                        </select>
+                    </div>
+    
+                    <div class="boks-skjema-wrapper">
+                        <label class="boks-skjema-overskrift">Melding</label>
+                        <textarea class="input-style" name="Melding" rows="6"></textarea>
+                    </div>
+                    <button type="submit" class="kontakt-skjema-submit-button">Send melding</button>
+                </form>
+            </div>
+    
+            <div class="kontakt-skjema-informasjon">
+                <img src="bilder/HVL logo.png" alt="hvl logo" class="kontakt-skjema-logo">
+                <p>
+                    Ønsker du å komme i kontakt med oss?<br>Her kan du sende oss en melding!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="kontakt-overlay"></div>
+    <div id="kontakt-popup">
+        <p>
+            Takk for din henvendelse!<br>Vi vil ta kontakt med deg.
+        </p>
+        <button class="popup-close-button" id="close-popup">Lukk</button>
+    </div>
+</section>
+
+<script src="kontaktOssSkjema.js"></script>
+
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Om oss</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, neque nemo dolorem eius id laudantium maxime dicta impedit fuga rem?</p>
+        </div>
+
+        <div class="box">
+            <h3>Les mer</h3>
+            <a href="https://www.bergen.kommune.no/">Bergen kommune.no</a>
+            <a href="https://www.hvl.no/">høgskulen på vestlandet</a>
+            <a href="https://fn.no/om-fn/fns-baerekraftsmaal/stoppe-klimaendringene">les mer om  klimaendringene</a>
+        </div>
+
+        <div class="box">
+            <h3>Kontakt oss</h3>
+            <p> <i class="fas fa-phone"></i> +47 123 32 112 </p>
+            <p> <i class="fas fa-envelope"></i> hvltopia@hvltopia.no </p>
+            <p><i class="fas fa-map-marker-alt"></i> · HVLtopia har kontor på Høgskulen på Vestlandet. Adressen er: 
+                <a href="https://www.google.com/maps?q=Inndalsveien+28,+5063" target="_blank">Inndalsveien 28, 5063</a>
+            </p>
+                    </div>
+
+        <div class="box">
+            <h3>Følg oss</h3>
+            <a href="https://www.facebook.com/hvl.no">facebook</a>
+            <a href="#">twitter</a>
+            <a href="https://www.instagram.com/hvl.no/">instagram</a>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</html>
+
+<!-- test -->
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+
+</body>
+</html>

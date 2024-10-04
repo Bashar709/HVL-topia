@@ -18,7 +18,16 @@ background-color: beige;
 font-size: 78px;
 padding-right 50px;
 }
-
+header {
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px)
+  }
 
     
 
