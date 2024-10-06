@@ -77,6 +77,11 @@ header {
   height: 50px;
   object-fit: contain;
 }
+:focus {
+  outline: 3px solid var(--green);
+  background-color: rgba(32, 146, 79, 0.1); 
+}
+
 header .navbar a {
   font-size: 1.7rem;
   margin-left: 2rem;
@@ -292,6 +297,7 @@ header .navbar a:hover {
 .project .box-container .box .info a {
   color: #000000;
   font-size: 1.4rem;
+  text-align: center;
 }
 
 .project .box-container .box .info a:hover {
@@ -602,6 +608,7 @@ transition: 0.2s linear;
   display: flex;
   justify-content: center;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
   
 .kontakt-boks {
