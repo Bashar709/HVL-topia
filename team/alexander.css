@@ -19,10 +19,6 @@ header h2 {
     font-size: 3rem;
 }
 
-subheading {
-    font-style: italic;
-}
-
 .navbar {
     position: fixed;
     top: 20px;
