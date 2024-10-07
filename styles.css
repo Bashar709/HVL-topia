@@ -748,3 +748,12 @@ flex-direction: column;
   box-shadow: 0 0 0 3px green;
   border-radius: 5px;
 }
+a {
+  display: inline-block; 
+  text-decoration: none;
+}
+
+a img {
+  display: block; 
+  width: 100%; 
+}
