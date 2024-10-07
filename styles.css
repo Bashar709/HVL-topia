@@ -528,19 +528,41 @@ transition: 0.2s linear;
   left: 695px;
 }
 
+
+
 .chat-container {
+  display: none; /* Initially hidden */
   background-color: #fff;
-  width: 400px;
+  max-width: 100%; /* Flexible width */
+  width: 400px; /* Limit maximum width */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   position: relative;
-  margin-right: 600px;
+  margin-right: auto; /* Centering */
+  margin-left: auto; /* Centering */
+}
+
+
+.knapp {
+  display: block;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100px;
+  margin: 10px 0;
+}
+
+.knapp:hover {
+  background-color: #0056b3;
 }
 
 .chat-box {
   height: 300px;
-  overflow-y: auto;
+  overflow-y: auto; /* Enable scrolling if content exceeds height */
   border: 1px solid #ddd;
   padding: 10px;
   border-radius: 10px;
@@ -586,22 +608,13 @@ transition: 0.2s linear;
 #send-btn:hover {
   background-color: #0056b3;
 }
-
-.layout {
-
-  list-style: none;
-  float: right; 
-
-  padding: 0;
-  display: flex;
-}
-
 /* Kontakt skjema - kontakt-og-samarbeid */
 
 .kontakt-boks-wrapper {
   display: flex;
   justify-content: center;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
   
 .kontakt-boks {
@@ -734,5 +747,14 @@ flex-direction: column;
 
 :focus {
   box-shadow: 0 0 0 3px green;
-  border-radius: 4px;
+  border-radius: 5px;
+}
+a {
+  display: inline-block; 
+  text-decoration: none;
+}
+
+a img {
+  display: block; 
+  width: 100%; 
 }

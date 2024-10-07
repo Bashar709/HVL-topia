@@ -37,8 +37,7 @@
     
         <a href="KontaktSamarbeid.html" tabindex="5">Kontakt og samarbeid</a>
         <a href="foredrag.html" tabindex="6">Informasjonskampanjer</a>
-        <a href="chatBot.html" tabindex="7">Hjelp</a>
-        <a href="omOss.html" tabindex="8">Om oss</a>
+        <a href="omOss.html" tabindex="7">Om oss</a>
     </nav>
 
     </header>
@@ -58,12 +57,32 @@
           informasjonen er et kart du kan følge for å bidra til å
           forbedre byen vår; sammen.
         </p>
-        <a href="omProsjekt.html" class="btn" tabindex="9">Les mer</a>
+
+        <a href="omProsjekt.html" class="btn" tabindex="8">Les mer</a>
+      </div>        
+      <div class="chat-container">
+        <div class="chat-box">
+            <div class="message bot-message">
+                Hvilket av utsagnene passer ditt problem best, skriv 1, 2 eller 3<br>
+                1. Jeg har et spørsmål om prosjektet<br>
+                2. Jeg har et spørsmål om nettsiden<br> 
+                3. Annet
+            </div>
+        </div>
+        <input type="text" id="user-input" tabindex="0" class="user-input" placeholder="Skriv inn det chat-boten sier">
+        <button id="send-btn" tabindex="0">Send</button>
+    </div>
+    
+    <button class="knapp" tabindex="9">ChatBot</button>
+
+      
       </div>
 
     </section>
     
 <div class="footer">
+
+    
 
   <div class="box-container">
 
@@ -102,4 +121,6 @@
   
 </body>
 
+<script src="script.js"></script>
   </html>
+

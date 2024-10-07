@@ -55,3 +55,12 @@ userInput.addEventListener('keydown', function (e) {
         handleUserInput();
     }
 });
+
+document.querySelector('.knapp').addEventListener('click', function() {
+    let chatContainer = document.querySelector('.chat-container');
+    if (chatContainer.style.display === 'none' || chatContainer.style.display === '') {
+        chatContainer.style.display = 'block';
+    } else {
+        chatContainer.style.display = 'none';
+    }
+});
