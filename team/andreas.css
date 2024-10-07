@@ -29,7 +29,12 @@ header {
     filter: drop-shadow(10px)
   }
 
-    
+  .navbar {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
 
 
 footer{}
