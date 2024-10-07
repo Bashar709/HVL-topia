@@ -53,7 +53,7 @@ section {
   text-align: center;
   text-transform: uppercase;
   padding: 1rem;
-  padding-top: 50px;
+  margin-top: 80px
 }
 header {
   position: fixed;
@@ -207,7 +207,7 @@ header .navbar a:hover {
 }
 
 .project {
-  padding-top: 7%;
+  margin-top: 80px
 }
 
 .project .intro-text {
