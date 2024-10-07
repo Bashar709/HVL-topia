@@ -323,7 +323,7 @@ header .navbar a:hover {
 }
 
 .transport .box-container .box img {
-position: flex;
+display: flex;
 width: 23vw;
 border-radius: 1%;
 cursor: pointer;
