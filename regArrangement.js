@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Close the popup when the close button is clicked
-    document.getElementById('close-popup').addEventListener('click', function() {
+    document.getElementById('close-popup-btn').addEventListener('click', function() {
         document.getElementById('kontakt-popup').style.display = 'none'; // Hide the popup
         document.getElementById('registrationForm').reset(); // Reset the form fields
     });

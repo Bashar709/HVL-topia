@@ -33,4 +33,5 @@ document.addEventListener('DOMContentLoaded', function () {
         myPage.classList.add('hidden');
         registrationForm.classList.remove('hidden');
     }
+    
 });

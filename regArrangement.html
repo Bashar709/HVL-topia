@@ -4,63 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrering for Arrangement</title>
-    <link rel="stylesheet" href="reg.css">
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
     <div class="logo">
-        <a href="../hjem.html">
-            <img src="../bilder/HVL logo.png" alt="HVL Topia sin logo">
+        <a href="hjem.html">
+            <img src="bilder/HVL logo.png" alt="HVL Topia sin logo">
         </a>
     </div>
 
     <div id="menu" class="fas fa-bars"></div>
 
     <nav class="navbar">
-        <a href="../hjem.html">Hjem</a>
-        <a href="../omProsjekt.html">Om prosjekt</a>
-        <a href="../Losning.html">Løsninger</a>
-        <a href="../KontaktSamarbeid.html">Kontakt og samarbeid</a>
-        <a href="../foredrag.html">Informasjonskampanjer</a>
-        <a href="../omOss.html">Om oss</a>
+        <a href="hjem.html">Hjem</a>
+        <a href="omProsjekt.html">Om prosjekt</a>
+        <a href="Losning.html">Løsninger</a>
+        <a href="KontaktSamarbeid.html">Kontakt og samarbeid</a>
+        <a href="foredrag.html">Informasjonskampanjer</a>
+        <a href="omOss.html">Om oss</a>
     </nav>
 </header>
 
 <!-- Registreringsskjema -->
-<section class="registration" id="registration">
-    <h1 class="heading">Registreringsskjema</h1>
-    <div class="box-container">
-        <div class="box">
+<section class="event-registration" id="registration">
+    <h1 class="title">Registreringsskjema</h1>
+    <div class="container">
+        <div class="form-box">
             <form id="registrationForm">
-                <div class="form-group">
+                <div class="input-group">
                     <label for="firstName">Fornavn:</label>
                     <input type="text" id="firstName" name="firstName" required placeholder="Skriv inn ditt fornavn">
                 </div>
-                <div class="form-group">
+                <div class="input-group">
                     <label for="lastName">Etternavn:</label>
                     <input type="text" id="lastName" name="lastName" required placeholder="Skriv inn ditt etternavn">
                 </div>
-                <div class="form-group">
+                <div class="input-group">
                     <label for="email">E-post:</label>
                     <input type="email" id="email" name="email" required placeholder="Skriv inn din e-post">
                 </div>
-                <div class="form-group">
+                <div class="input-group">
                     <label for="phone">Telefon:</label>
                     <input type="tel" id="phone" name="phone" required placeholder="Skriv inn telefonnummeret ditt">
                 </div>
-                <div class="form-group">
-                    <label for="subject">Kommentar:</label>
+                <div class="input-group">
+                    <label for="subject">Emne:</label>
                     <input type="text" id="subject" name="subject" placeholder="Skriv inn kommentar">
                 </div>
-                <button type="submit" class="btn">Meld deg</button>
+                <button type="submit" class="submit-btn">Meld deg</button>
             </form>
 
             <!-- Bekreftelse på registrering -->
             <div id="kontakt-popup" style="display: none;">
                 <p>Takk for din påmelding!<br>Vi gleder oss til å se deg.</p>
-                <button class="popup-close-button" id="close-popup" type="button">Lukk</button>
+                <button class="popup-close-button" id="close-popup-btn" type="button">Lukk</button>
             </div>
         </div>
     </div>
@@ -95,6 +94,6 @@
     </div>
 </div>
 
-<script src="hava.js"></script>
+<script src="regArrangement.js"></script>
 </body>
 </html>
