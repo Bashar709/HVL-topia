@@ -637,6 +637,7 @@ transition: 0.2s linear;
   border-radius: 10px;
   width: auto;
   height: auto;
+  padding-bottom: 20px;
 }
 
 .kontakt-skjema {
@@ -649,6 +650,7 @@ transition: 0.2s linear;
 
 .kontakt-skjema h1 {
   padding: 20px;
+  font-size: 1.5rem;
 }
 
 .kontakt-skjema-informasjon {
@@ -696,9 +698,13 @@ flex-direction: column;
   color: #666;
 }
 
-.boks-skjema-overskrift, .kontakt-skjema-overskrift, .kontakt-skjema-submit-button, .kontakt-skjema-informasjon p, #kontakt-popup p  {
+.boks-skjema-overskrift, .kontakt-skjema-submit-button, .kontakt-skjema-informasjon p, #kontakt-popup p  {
   font-size: 1.5rem;
   color: #666;
+}
+
+.kontakt-skjema-overskrift {
+  font-size: 1.5rem;
 }
 
 .kontakt-skjema-submit-button {
