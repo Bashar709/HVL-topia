@@ -210,6 +210,15 @@ header .navbar a:hover {
   margin-top: 80px
 }
 
+.project-heading  {
+  text-align: left;
+  /* margin-left: 10px; */
+  font-size: 3.5rem;
+  color: #555;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
 .project .intro-text {
   padding-top: 0.5%;
   padding-bottom: 2%;
@@ -314,7 +323,7 @@ header .navbar a:hover {
 }
 
 .transport .box-container .box img {
-position: flex;
+display: flex;
 width: 23vw;
 border-radius: 1%;
 cursor: pointer;
