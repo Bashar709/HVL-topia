@@ -553,6 +553,10 @@ transition: 0.2s linear;
   margin-left: auto; /* Centering */
 }
 
+.chat-container:focus-visible {
+  transition: opacity 0.5s;
+}
+
 
 .knapp {
   display: block;
