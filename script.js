@@ -19,6 +19,24 @@ const chatBox = document.getElementById('chat-box');
 const userInput = document.getElementById('user-input');
 const sendBtn = document.getElementById('send-btn');
 
+// automatisk åpner chatbot popup når side åpnes
+window.onload = function() {
+    document.getElementById("bot-popup-form").style.display = "block"
+    document.getElementById("openChatBtn").style.display = "none";
+}
+
+// minimize popup
+function minimizeChat() {
+    document.getElementById("bot-popup-form").style.display = "none";
+    document.getElementById("openChatBtn").style.display = "block";
+}
+
+// åpne popup etter minimisering
+function openChat() {
+    document.getElementById("bot-popup-form").style.display = "block";
+    document.getElementById("openChatBtn").style.display = "none";
+}
+
 // Legg til melding i chat-boksen
 function addMessage(content, type) {
     const messageElement = document.createElement('div');
