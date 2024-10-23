@@ -631,6 +631,7 @@ transition: 0.2s linear;
   width: 300px;
   background-color: #9ed8a2;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
 
 .minimize-btn {
