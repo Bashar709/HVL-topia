@@ -703,7 +703,8 @@ transition: 0.2s linear;
 
 .kontakt-skjema h1 {
   padding: 20px;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  color: #666
 }
 
 .kontakt-skjema-informasjon {
@@ -738,6 +739,7 @@ flex-direction: column;
   margin: 10px;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
   padding: 10px;
+  border-radius: 5px;
 }
 
 .boks-skjema-overskrift {
@@ -752,9 +754,9 @@ flex-direction: column;
   color: #666;
 }
 
-.kontakt-skjema-overskrift {
+/* .kontakt-skjema-overskrift {
   font-size: 1.5rem;
-}
+} */
 
 .kontakt-skjema-submit-button {
   background-color: #b5dac3c5;
@@ -858,7 +860,7 @@ a img {
   margin-bottom: 20px; 
 }
 
-label {
+.form-label {
   display: block; 
   font-weight: bold; 
   margin-bottom: 5px; 
