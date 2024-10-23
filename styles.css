@@ -541,7 +541,7 @@ transition: 0.2s linear;
 
 
 .chat-container {
-  display: none; /* Initially hidden */
+  /* display: none;  */
   background-color: #fff;
   max-width: 100%; /* Flexible width */
   width: 400px; /* Limit maximum width */
@@ -609,16 +609,69 @@ transition: 0.2s linear;
 #send-btn {
   width: 50px;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #7eac81;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 #send-btn:hover {
-  background-color: #0056b3;
+  background-color: #507051;
 }
+
+/* chatbot popup */
+
+.chat-bot-popup {
+  display: block; 
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background-color: #9ed8a2;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.minimize-btn {
+  display: flex;
+  background-color: #4CAF50;
+  color: black;
+  border: none;
+  top: 10px;
+  right: 10px;
+}
+
+.header-bot-popup {
+  color: green;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: right;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
+.open-chat-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #9ed8a2;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+.chat-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
 /* Kontakt skjema - kontakt-og-samarbeid */
 
 .kontakt-boks-wrapper {
@@ -633,7 +686,6 @@ transition: 0.2s linear;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
   display: flex;
   text-align: center;
-  /* align-items: center; */
   border-radius: 10px;
   width: auto;
   height: auto;
@@ -658,13 +710,9 @@ transition: 0.2s linear;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* display: inline-block; */
-  /* text-align: center; */
   padding: 20px;
   width: 300px;
-  /* margin-bottom: 50px; */
   padding-bottom: 120px;
-  /* align-items: center; */
 }
 
 .kontakt-skjema-logo {
