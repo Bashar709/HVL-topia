@@ -913,8 +913,13 @@ input[type="tel"]:focus {
 }
 
 .heading_python p {
-  font-size: 2 rem; /* Endre skriftstørrelse */
-  font-weight: normal;}
+  font-size: 2 rem; 
+  font-weight: center;}
+
+  .heading_python p1 {
+    font-size: 1 rem; 
+    color: black;          
+}
 
 .box_python {
   text-align: center;
