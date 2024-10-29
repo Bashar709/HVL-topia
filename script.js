@@ -14,31 +14,31 @@ const botResponses = {
     "igjen":" hvilket av utsagnene passer ditt problem best, skriv 1, 2 eller 3. 1. Jeg har et spørsmål om prosjektet 2. Jeg har et spørsmål om nettsiden 3. Annet"
 };
 
-// Elementer fra HTML
+
 const chatBox = document.getElementById('chat-box');
 const userInput = document.getElementById('user-input');
 const sendBtn = document.getElementById('send-btn');
 
-// Legg til melding i chat-boksen
+
 function addMessage(content, type) {
     const messageElement = document.createElement('div');
     messageElement.classList.add('message', type);
     messageElement.textContent = content;
     chatBox.appendChild(messageElement);
-    chatBox.scrollTop = chatBox.scrollHeight; // Scroll til bunn
+    chatBox.scrollTop = chatBox.scrollHeight; 
 }
 
-// Håndterer brukerinput
+
 function handleUserInput() {
     const userMessage = userInput.value.toLowerCase();
     addMessage(userMessage, 'user-message');
-    userInput.value = ''; // Tøm input-feltet
+    userInput.value = ''; 
 
-    // Sjekk om boten har et forhåndsdefinert svar
+    
     if (botResponses[userMessage]) {
         setTimeout(() => {
             addMessage(botResponses[userMessage], 'bot-message');
-        }, 1000); // Botens svar kommer etter 1 sekund
+        }, 1000); 
     } else {
         setTimeout(() => {
             addMessage("Beklager, jeg forstår ikke spørsmålet ditt.", 'bot-message');
@@ -46,10 +46,10 @@ function handleUserInput() {
     }
 }
 
-// Event Listener for Send-knappen
+
 sendBtn.addEventListener('click', handleUserInput);
 
-// Aktiver Enter-tast for å sende melding
+
 userInput.addEventListener('keydown', function (e) {
     if (e.key === 'Enter') {
         handleUserInput();
