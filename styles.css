@@ -161,7 +161,7 @@ header .navbar a:hover {
 }
 
 .home .content p {
-  color: #bbb;
+  color: #ffffff;
   font-size: 1.9rem;
   padding: 1rem 0;
 }
@@ -541,7 +541,7 @@ transition: 0.2s linear;
 
 
 .chat-container {
-  display: none; /* Initially hidden */
+  /* display: none;  */
   background-color: #fff;
   max-width: 100%; /* Flexible width */
   width: 400px; /* Limit maximum width */
@@ -609,16 +609,70 @@ transition: 0.2s linear;
 #send-btn {
   width: 50px;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #7eac81;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 #send-btn:hover {
-  background-color: #0056b3;
+  background-color: #507051;
 }
+
+/* chatbot popup */
+
+.chat-bot-popup {
+  display: block; 
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background-color: #9ed8a2;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.minimize-btn {
+  display: flex;
+  background-color: #4CAF50;
+  color: black;
+  border: none;
+  top: 10px;
+  right: 10px;
+}
+
+.header-bot-popup {
+  color: green;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: right;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
+.open-chat-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #9ed8a2;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+.chat-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
 /* Kontakt skjema - kontakt-og-samarbeid */
 
 .kontakt-boks-wrapper {
@@ -633,10 +687,10 @@ transition: 0.2s linear;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
   display: flex;
   text-align: center;
-  /* align-items: center; */
   border-radius: 10px;
   width: auto;
   height: auto;
+  padding-bottom: 20px;
 }
 
 .kontakt-skjema {
@@ -649,6 +703,8 @@ transition: 0.2s linear;
 
 .kontakt-skjema h1 {
   padding: 20px;
+  font-size: 2rem;
+  color: #666
 }
 
 .kontakt-skjema-informasjon {
@@ -656,13 +712,9 @@ transition: 0.2s linear;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* display: inline-block; */
-  /* text-align: center; */
   padding: 20px;
   width: 300px;
-  /* margin-bottom: 50px; */
   padding-bottom: 120px;
-  /* align-items: center; */
 }
 
 .kontakt-skjema-logo {
@@ -687,6 +739,7 @@ flex-direction: column;
   margin: 10px;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
   padding: 10px;
+  border-radius: 5px;
 }
 
 .boks-skjema-overskrift {
@@ -696,10 +749,14 @@ flex-direction: column;
   color: #666;
 }
 
-.boks-skjema-overskrift, .kontakt-skjema-overskrift, .kontakt-skjema-submit-button, .kontakt-skjema-informasjon p, #kontakt-popup p  {
+.boks-skjema-overskrift, .kontakt-skjema-submit-button, .kontakt-skjema-informasjon p, #kontakt-popup p  {
   font-size: 1.5rem;
   color: #666;
 }
+
+/* .kontakt-skjema-overskrift {
+  font-size: 1.5rem;
+} */
 
 .kontakt-skjema-submit-button {
   background-color: #b5dac3c5;
@@ -803,7 +860,7 @@ a img {
   margin-bottom: 20px; 
 }
 
-label {
+.form-label {
   display: block; 
   font-weight: bold; 
   margin-bottom: 5px; 
@@ -844,3 +901,78 @@ input[type="tel"]:focus {
   padding: 15px; 
   border-radius: 5px; 
 }
+
+
+/*python layouten*/
+.heading_python {
+  font-size: 20px;         
+  color: #4CAF50;          
+  text-align: center;      
+  margin-top: 150px;
+  padding: 1rem;
+}
+
+.heading_python p {
+  font-size: 2 rem; 
+  font-weight: center;}
+
+  .heading_python p1 {
+    font-size: 1 rem; 
+    color: black;  
+}
+
+.box_python {
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  width: 1000px; 
+}
+
+.zoomable {
+  width: 100%;
+  height: auto;
+  cursor: pointer; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease; 
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1000; 
+}
+
+#modal:target {
+  display: flex;
+}
+
+.fullscreen_image {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px; 
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  color: white;
+  text-decoration: none; 
+  cursor: pointer; 
+  transition: color 0.3s ease; 
+}
+.close:hover {
+  color: #ff4444; 
+}
+
+
