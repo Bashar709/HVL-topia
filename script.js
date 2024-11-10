@@ -19,9 +19,6 @@ const chatBox = document.getElementById('chat-box');
 const userInput = document.getElementById('user-input');
 const sendBtn = document.getElementById('send-btn');
 
-<<<<<<< HEAD
-
-=======
 // automatisk åpner chatbot popup når side åpnes
 window.onload = function() {
     document.getElementById("bot-popup-form").style.display = "block"
@@ -41,7 +38,6 @@ function openChat() {
 }
 
 // Legg til melding i chat-boksen
->>>>>>> d153baac53450b538db7913f79f1ac06d56c71cf
 function addMessage(content, type) {
     const messageElement = document.createElement('div');
     messageElement.classList.add('message', type);
